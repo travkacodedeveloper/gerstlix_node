@@ -1,4 +1,4 @@
-# node install gerstlix_node
+# npm install gerstlix_node
 
 ## What is this? ##
 Library for simplified access to the Gerstlix API
