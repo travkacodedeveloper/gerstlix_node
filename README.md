@@ -6,17 +6,17 @@ Library for simplified access to the Gerstlix API
 ## Quick Guide ##
 To access the methods of the module, you need to:
 ```js
-const Gerstlix = require("gerstlix_node")
-const gx = new Gerstlix({ token: "your_token" })
+const Gerstlix = require("gerstlix_node");
+const gx = new Gerstlix({ token: "your_token" });
 ```
 
 ## Example ##
 ```js
-const Gerstlix = require("gerstlix_node")
-const gx = new Gerstlix({ token: "your_token" })
+const Gerstlix = require("gerstlix_node");
+const gx = new Gerstlix({ token: "your_token" });
 
-result = gx.get_members(server=3, fractionId=1)
-print(result)
+const result = gx.getMembers(3, 1);
+console.log(result);
 ```
 ### Output ###
 ```json
