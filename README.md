@@ -16,7 +16,7 @@ const Gerstlix = require("gerstlix_node")
 const gx = new Gerstlix({ token: "your_token" })
 
 result = gx.get_members(server=3, fractionId=1)
-print(result)
+console.log(result)
 ```
 ### Output ###
 ```json
